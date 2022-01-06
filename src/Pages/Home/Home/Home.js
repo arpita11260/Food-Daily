@@ -13,7 +13,6 @@ const Home = () => {
     return (
         <div id="home" className='bg-dark'>
             <Banner></Banner>
-           
             <Reviews></Reviews>
             <Faq></Faq>
             <Contact></Contact>

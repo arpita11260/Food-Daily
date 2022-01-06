@@ -34,6 +34,8 @@ const Dashboard = () => {
   <ListGroup.Item active><Nav.Link  className="text-dark fw-bolder border border-2 border-dark pt-2"  as={Link} to="/manageService">My Orders</Nav.Link></ListGroup.Item>
   <ListGroup.Item active>    <Nav.Link  className="text-dark fw-bolder border border-2 border-dark pt-2"  as={Link} to="/explores">Explore-Offer</Nav.Link></ListGroup.Item>
   <ListGroup.Item active> <Nav.Link  className="text-dark fw-bolder border border-2 border-dark pt-2"  as={Link} to="/drinks">Dessert-Drink</Nav.Link></ListGroup.Item>
+  <ListGroup.Item active> <Nav.Link  className="text-dark fw-bolder border border-2 border-dark pt-2"  as={Link} to="/videoBanner">Commercial-Banner</Nav.Link></ListGroup.Item>
+  <ListGroup.Item active> <Nav.Link  className="text-dark fw-bolder border border-2 border-dark pt-2"  as={Link} to="/drinks">Check-Section</Nav.Link></ListGroup.Item>
 </ListGroup>
                      {user?.email ?
                          <Button className=' fw-bolder bg-success m-1' onClick={logOut} variant="light">Logout</Button> :
